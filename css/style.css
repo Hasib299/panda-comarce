@@ -1,0 +1,25 @@
+.my-carousel {
+  /* border-radius: 100px; */
+}
+
+.my-carousel-item {
+  background-color: #feeae9;
+}
+.carousel-des {
+}
+.my-carousel-item > div > p {
+  text-align: justify;
+}
+
+.my-carousel-item > div > h2 {
+  font-weight: lighter;
+  color: #ec2086;
+}
+.my-carousel-item > div > button {
+  border: none;
+  z-index: 10000;
+  background-color: #ec2086;
+  color: white;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
