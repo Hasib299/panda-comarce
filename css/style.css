@@ -1,25 +1,79 @@
-.my-carousel {
-  /* border-radius: 100px; */
+.clear {
+  clear: both;
+  content: "";
 }
-
 .my-carousel-item {
   background-color: #feeae9;
+  border-radius: 20px;
 }
-.carousel-des {
+.my-carousel-sec {
+  margin-top: 150px !important;
 }
-.my-carousel-item > div > p {
+.my-carousel-item .my-carousel-item > div > p {
   text-align: justify;
 }
 
 .my-carousel-item > div > h2 {
-  font-weight: lighter;
   color: #ec2086;
 }
-.my-carousel-item > div > button {
-  border: none;
-  z-index: 10000;
+.crsl-data {
+  border-radius: 8px;
+  margin-left: 100px;
+  width: 600px;
+  padding: 5px 10px;
+}
+.crsl-data button,
+.btn {
   background-color: #ec2086;
   color: white;
-  border-radius: 8px;
-  padding: 5px 10px;
+}
+
+/* category */
+.category {
+}
+.c-watch,
+.c-bag,
+.c-shoes {
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: white;
+}
+.row img {
+  width: 100px;
+}
+.c-watch {
+  background-color: orange;
+}
+.c-bag {
+  background-color: #ec2086;
+}
+.c-shoes {
+  background-color: blue;
+}
+.card {
+  box-shadow: 0px 0px 20px 0px #32313175;
+}
+
+/* contact us  */
+.contact-us {
+  width: 100%;
+  height: 400px;
+  background-color: #feeae9;
+  padding: 0px 50px;
+  border-radius: 10px;
+}
+.contact-us h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+input[type="email"] {
+  width: 400px;
+  margin: auto;
+}
+.cnfrm {
+  width: 350px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
 }
