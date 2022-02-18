@@ -4,7 +4,7 @@
 }
 .my-carousel-item {
   background-color: #feeae9;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 .my-carousel-sec {
   margin-top: 150px !important;
@@ -16,13 +16,7 @@
 .my-carousel-item > div > h2 {
   color: #ec2086;
 }
-.crsl-data {
-  border-radius: 8px;
-  margin-left: 100px;
-  width: 600px;
-  padding: 5px 10px;
-}
-.crsl-data button,
+
 .btn {
   background-color: #ec2086;
   color: white;
